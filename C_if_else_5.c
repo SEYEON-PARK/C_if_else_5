@@ -2,25 +2,25 @@
 
 int main(void)
 {
-	int score;
+    int score;
 
-	printf("´ç½ÅÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. ");
-	scanf_s("%d", &score);
+    printf("ë‹¹ì‹ ì˜ ì ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”. ");
+    scanf_s("%d", &score);
 
     if (score >= 95)
-        printf("´ç½ÅÀÇ µî±ÞÀº A+ÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ A+ìž…ë‹ˆë‹¤.");
     else if (score >= 90)
-        printf("´ç½ÅÀÇ µî±ÞÀº AÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ Aìž…ë‹ˆë‹¤.");
     else if (score >= 85) 
-        printf("´ç½ÅÀÇ µî±ÞÀº B+ÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ B+ìž…ë‹ˆë‹¤.");
     else if(score >= 80) 
-        printf("´ç½ÅÀÇ µî±ÞÀº BÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ Bìž…ë‹ˆë‹¤.");
     else if(score >= 75) 
-        printf("´ç½ÅÀÇ µî±ÞÀº C+ÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ C+ìž…ë‹ˆë‹¤.");
     else if(score >= 70) 
-        printf("´ç½ÅÀÇ µî±ÞÀº CÀÔ´Ï´Ù.");
+        printf("ë‹¹ì‹ ì˜ ë“±ê¸‰ì€ Cìž…ë‹ˆë‹¤.");
     else
-        printf("¾Æ½±½À´Ï´Ù. Àç¼ö°­ÇÏ¼Å¾ß ÇÕ´Ï´Ù.");
+        printf("ì•„ì‰½ìŠµë‹ˆë‹¤. ìž¬ìˆ˜ê°•í•˜ì…”ì•¼ í•©ë‹ˆë‹¤.");
 
     return 0;
 }
